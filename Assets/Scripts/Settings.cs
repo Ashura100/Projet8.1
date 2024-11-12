@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.XR.Oculus;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
@@ -8,17 +9,22 @@ using UnityEngine.UI;
 public class Settings : MonoBehaviour
 {
     public AudioMixer audioMixer;
+
+    [SerializeField] GameObject performances;
     // Slider pour le volume principal et le volume des SFX
     [SerializeField] Slider musiqueSlider;
     [SerializeField] Slider sfxSlider;
 
     // Toggle et label pour le plein écran
     [SerializeField] Toggle fullScreenToggle;
+    [SerializeField] Toggle devModToggle;
 
     // TMP_Dropdown pour la résolution
     [SerializeField] TMP_Dropdown resolutionDrop;
 
     Resolution[] resolutions;
+
+    private bool isActive = false;
 
     void Start()
     {
@@ -79,6 +85,13 @@ public class Settings : MonoBehaviour
     public void SetPleinEcran(bool isPleinEcran)
     {
         Screen.fullScreen = isPleinEcran;
+    }
+
+    // Méthode pour afficher ou masquer les statistiques de performance
+    public void ShowPerformanceStats()
+    {
+        isActive = !isActive;  // Inverse la visibilité
+        performances.SetActive(isActive);
     }
 
     // Set screen resolution

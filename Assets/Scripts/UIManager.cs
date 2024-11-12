@@ -5,12 +5,10 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public GameObject performances;             // Panel pour afficher les statistiques de performance
     public RawImage vehicleImage;               // Image de rendu de la caméra
     public List<CarSO> carList = new List<CarSO>();  // Liste des véhicules disponibles
     public Transform[] spawnPoints;             // Tableau de points de pose
-    private int currentVehicleIndex = 0;        // Index du véhicule actuel
-    private bool isActive = false;              // Statut d'affichage des performances
+    private int currentVehicleIndex = 0;        // Index du véhicule actue
 
     private CarSO currentCar;                   // Référence à la voiture actuellement sélectionnée
     private List<GameObject> instantiatedCars = new List<GameObject>(); // Liste des véhicules instanciés
@@ -66,13 +64,6 @@ public class UIManager : MonoBehaviour
             // Appliquer la couleur au matériau de la voiture actuelle
             currentCar.color.color = selectedColor;
         }
-    }
-
-    // Méthode pour afficher ou masquer les statistiques de performance
-    public void ShowPerformanceStats()
-    {
-        isActive = !isActive;  // Inverse la visibilité
-        performances.SetActive(isActive);
     }
 
     // Méthode pour sélectionner et instancier la voiture actuelle sur un point de pose
