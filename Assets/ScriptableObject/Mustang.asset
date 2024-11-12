@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ea43309baa3b1e4099f421a8719429d, type: 3}
+  m_Name: Mustang
+  m_EditorClassIdentifier: 
+  image: {fileID: 8400000, guid: 84352df7473999a44a8a5ace3bb3a0bd, type: 2}
+  objectName: Ford Mustang Boss 302 1969
+  description: 
+  gameOject: {fileID: 484798663710679742, guid: 2b0933e1ba83747429a1d6432757308f, type: 3}
+  color: {fileID: 2100000, guid: e8de57f2e57588c449af19674212204f, type: 2}
+  price: 68000
