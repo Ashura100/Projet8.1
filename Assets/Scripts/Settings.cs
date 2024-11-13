@@ -28,11 +28,11 @@ public class Settings : MonoBehaviour
 
     void Start()
     {
-        SetVolume(PlayerPrefs.GetFloat("MusiqueVolume"));
-        SetSfxVolume(PlayerPrefs.GetFloat("SfxVolume"));
+        SetVolume(PlayerPrefs.GetFloat("Music"));
+        SetSfxVolume(PlayerPrefs.GetFloat("Sfx"));
 
-        musiqueSlider.value = PlayerPrefs.GetFloat("MusiqueVolume");
-        sfxSlider.value = PlayerPrefs.GetFloat("SfxVolume");
+        musiqueSlider.value = PlayerPrefs.GetFloat("Music");
+        sfxSlider.value = PlayerPrefs.GetFloat("Sfx");
 
         // Initialize resolutions
         resolutions = Screen.resolutions;
@@ -69,16 +69,16 @@ public class Settings : MonoBehaviour
     public void SetVolume(float volume)
     {
         float dB = Mathf.Log10(volume) * 20 - 20;
-        audioMixer.SetFloat("MusiqueVolume", dB);
-        PlayerPrefs.SetFloat("MusiqueVolume", volume);
+        audioMixer.SetFloat("Music", dB);
+        PlayerPrefs.SetFloat("Music", volume);
     }
 
     // Set SFX volume
     public void SetSfxVolume(float volume)
     {
         float dB = Mathf.Log10(volume) * 20;
-        audioMixer.SetFloat("SfxVolume", dB);
-        PlayerPrefs.SetFloat("SfxVolume", volume);
+        audioMixer.SetFloat("Sfx", dB);
+        PlayerPrefs.SetFloat("Sfx", volume);
     }
 
     // Set full screen mode

@@ -3,7 +3,332 @@ guid: b98ec80ec10d369478952ec0b2600f14
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.000
+    second: {fileID: 2100000, guid: d8ace3892a627804e9675b1024c3e1ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.001
+    second: {fileID: 2100000, guid: ee6902f4b5243d14e96e4a77f897e716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.002
+    second: {fileID: 2100000, guid: 1c12b3e7e118e3e44894c3267d1cffd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.003
+    second: {fileID: 2100000, guid: 1f3e3095aa6a3a54f8f1adc0b2d971b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.004
+    second: {fileID: 2100000, guid: 719eae011ac8b4f408d814c207a37380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.005
+    second: {fileID: 2100000, guid: b9b1d8ece2b54b44e82982e22e479162, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.006
+    second: {fileID: 2100000, guid: 3a0a70e39546a5b499626c0f33f59961, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.007
+    second: {fileID: 2100000, guid: 2f1563e4db52e3d488d55966dd2f0148, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.008
+    second: {fileID: 2100000, guid: 56d668837296fd44e947ee77dfd34cf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.009
+    second: {fileID: 2100000, guid: 70e914c483aeb7a4da50c73326eb698a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.010
+    second: {fileID: 2100000, guid: 75e7715b767e43944bc53034b93a6603, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.011
+    second: {fileID: 2100000, guid: 2c5bc12bd4678ae4fb285690eabad152, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.012
+    second: {fileID: 2100000, guid: 2681485644bc10046b787a417b2d98d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.013
+    second: {fileID: 2100000, guid: 28715113c28336b43bf57af84324358a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.014
+    second: {fileID: 2100000, guid: 37007720e9b947e4da13dc25a7c526e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 1 car paint.015
+    second: {fileID: 2100000, guid: 43b7d07a591d79041b370eb04eccaa1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminium
+    second: {fileID: 2100000, guid: a5ed834fcae76f74ca6d9074831da221, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black Plastic
+    second: {fileID: 2100000, guid: 36e030181131bf34a8ef9d1e5895c60f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black Plastic.001
+    second: {fileID: 2100000, guid: 269d363efc2eae24fb96b994e119863f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black Plastic.002
+    second: {fileID: 2100000, guid: 3359b13279972704f9e3d7319b1b8e5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue Car Paint
+    second: {fileID: 2100000, guid: f97a75553caee794bb2bcfed3d5a0251, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue Car Paint.001
+    second: {fileID: 2100000, guid: d629083605a5ea34f9e2c43cc28f8d1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue Car Paint.004
+    second: {fileID: 2100000, guid: 2998258fba2f9054e932f7d4e670ef68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brushed Aluminum 2
+    second: {fileID: 2100000, guid: b7624787015ba5a409c44002d970db03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car windshield glass
+    second: {fileID: 2100000, guid: 80d7fc62460b23e40a7e25fae18da432, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car windshield glass.001
+    second: {fileID: 2100000, guid: c5f66c5174ab3f44ca680646ec024b0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car windshield glass.003
+    second: {fileID: 2100000, guid: 733078edbf83ae14bb95510841bf3e8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carbon Fiber Procedural
+    second: {fileID: 2100000, guid: 46a68496d2924f447a60e4da5db68748, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chrome
+    second: {fileID: 2100000, guid: 8c3488f6cc406c7419c3efa4c0eb5a4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DRL Emission material PL
+    second: {fileID: 2100000, guid: cf1b4edc319915a43b7ae2e714eb7953, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DRL Emission material PL.001
+    second: {fileID: 2100000, guid: 863e3ff46ca666a4daa715a00d656a89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DRL Emission material PL.002
+    second: {fileID: 2100000, guid: b2ae7c0d1ed86484aba6e3e721befdb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DRL Emission material PL.003
+    second: {fileID: 2100000, guid: e6562bd68332d194fbd2f76f4beda1d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DRL Emission material PL.004
+    second: {fileID: 2100000, guid: b797a787c37adb14fbdeb924cfb189b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 745bd1630dba3d846b3f8be0dfb5d286, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass dark
+    second: {fileID: 2100000, guid: b40db46948af5164f98edf6c25b86b5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassM
+    second: {fileID: 2100000, guid: 49df8138430bac347a559357305ee9c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Headlight glass
+    second: {fileID: 2100000, guid: f2e278e885a6473489d3ea2d4bfb868b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leather Fabric 01
+    second: {fileID: 2100000, guid: 485937ed61aec1144ad6b61e503bb313, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leather Shader
+    second: {fileID: 2100000, guid: 525c4ebda826d9541b88db03f2616af4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leather Shader.001
+    second: {fileID: 2100000, guid: 9033e0d65e8c9fe48a5e1bb07a73ac3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leather Shader.002
+    second: {fileID: 2100000, guid: f93b014be268dac4c9d513a009e96c89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Logo
+    second: {fileID: 2100000, guid: 6c98daac27157a64699b401d7eb3d6af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 21bf620ec952f404a900023fa76086af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: e9733e9f019286e438a233710b6bda8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: e6451ec925348f840a76e431be9620fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 1edba4803d4ce634bb84c0ef950117d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.011
+    second: {fileID: 2100000, guid: cb14e4acbf5dc3347925d64aaf01ce9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.012
+    second: {fileID: 2100000, guid: c5ac6155a75ed0346a35a0132285a3f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NumberBlue
+    second: {fileID: 2100000, guid: 18d3c68c5f5019342aa7971bc4a294d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NumberDark
+    second: {fileID: 2100000, guid: 30407ab784a723d4e9bfde5469a5c7ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NumberDark2
+    second: {fileID: 2100000, guid: 42171d1519ab85449b3cd3873cd1d969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NumberGreen
+    second: {fileID: 2100000, guid: 253d464f69ffaec4383592f768be2a4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NumberWhite
+    second: {fileID: 2100000, guid: ae3e745cb7e9fea469a1cf6e93073f4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic Base 02
+    second: {fileID: 2100000, guid: 5c3820d1a656d7b4b9f6d7a1c3bcea2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic Grid 04
+    second: {fileID: 2100000, guid: 4e4f15a52e2b80946a40f860b91b92ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rim Paint
+    second: {fileID: 2100000, guid: dc3cd0ffab4e3ad42aabf9287e00bf86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rims.001
+    second: {fileID: 2100000, guid: 730714928c898bf42b98e24fab41b174, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tire.001
+    second: {fileID: 2100000, guid: f7685151b20c5cd479c9bcbf960c2bfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Velvet Dark
+    second: {fileID: 2100000, guid: 92a9e425c252155419127de6d8bb54ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Weave Generator.001
+    second: {fileID: 2100000, guid: e4c1259af37f4744a92e0d079d12950d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrome.002
+    second: {fileID: 2100000, guid: 0c68efea1c9fe0f4185b77b6960ed05a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: disc.002
+    second: {fileID: 2100000, guid: dd3963b03a277974b96cdb422042d4f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_rough.001
+    second: {fileID: 2100000, guid: d9739a2132938b54ba5bcfa715cc0c71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: null.001
+    second: {fileID: 2100000, guid: 05cbdc885d6ce73488f8ce25e450a92f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,102 @@ guid: bcae811d8165c5841b7ec41a6b1684a7
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarPaintMatteRed
+    second: {fileID: 2100000, guid: 143e9d9cbde389d4ea134d942fca243f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FabricDarkBlue
+    second: {fileID: 2100000, guid: 35bc528e5d5cb6143a1683b9e7934301, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 371d97d894acd2e4aae0c59ace3e8ca0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassBlack
+    second: {fileID: 2100000, guid: 700e0e973b8a2174f9ba7c9c786a4218, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassMirror
+    second: {fileID: 2100000, guid: 639965307d70ccb4b89e597586ae666d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassOrange
+    second: {fileID: 2100000, guid: 5f810eb84e22dad41ace409f1305fef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassRed
+    second: {fileID: 2100000, guid: d98622628c6f6a04a8f37c3c46b4e958, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 3db576af058df9b4e9e8618845abcadf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalBlack
+    second: {fileID: 2100000, guid: fe773564d717125428c45af3e659ae92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalBrass
+    second: {fileID: 2100000, guid: f6acfdd5fa4df9646941012536d63ec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PaintWhite
+    second: {fileID: 2100000, guid: 28a28a87b1ee762408b24d11069e5e9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlasticDarkBlue
+    second: {fileID: 2100000, guid: c048d5b1b5385254a88062167270cfb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlasticDarkGray
+    second: {fileID: 2100000, guid: 29851480ead2a32419cc6a44a49e8952, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlasticGray
+    second: {fileID: 2100000, guid: 824dbad079495a24388f6838eb2411df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PlasticRed
+    second: {fileID: 2100000, guid: 174c08dfeefc254409e3d78b4c844c89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShadowPlane
+    second: {fileID: 2100000, guid: 9af1d4c6eca2a644ba39bc3cd94f56c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TiresFront
+    second: {fileID: 2100000, guid: 18c332a7aa9b704408a4b8d0e59084ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TiresRear
+    second: {fileID: 2100000, guid: 0d7156c75c2713f4c98ba5e9cdbff041, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindshieldFrit
+    second: {fileID: 2100000, guid: 08dc1ead16839ac43804a947f104b105, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
