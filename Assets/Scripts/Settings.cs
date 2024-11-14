@@ -12,7 +12,7 @@ public class Settings : MonoBehaviour
 
     [SerializeField] GameObject performances;
     // Slider pour le volume principal et le volume des SFX
-    [SerializeField] Slider musiqueSlider;
+    [SerializeField] Slider musicSlider;
     [SerializeField] Slider sfxSlider;
 
     // Toggle et label pour le plein écran
@@ -31,7 +31,7 @@ public class Settings : MonoBehaviour
         SetVolume(PlayerPrefs.GetFloat("Music"));
         SetSfxVolume(PlayerPrefs.GetFloat("Sfx"));
 
-        musiqueSlider.value = PlayerPrefs.GetFloat("Music");
+        musicSlider.value = PlayerPrefs.GetFloat("Music");
         sfxSlider.value = PlayerPrefs.GetFloat("Sfx");
 
         // Initialize resolutions
@@ -59,7 +59,7 @@ public class Settings : MonoBehaviour
         fullScreenToggle.isOn = Screen.fullScreen;
 
         // Add listeners for sliders, toggle, and dropdown
-        musiqueSlider.onValueChanged.AddListener(delegate { SetVolume(musiqueSlider.value); });
+        musicSlider.onValueChanged.AddListener(delegate { SetVolume(musicSlider.value); });
         sfxSlider.onValueChanged.AddListener(delegate { SetSfxVolume(sfxSlider.value); });
         fullScreenToggle.onValueChanged.AddListener(SetPleinEcran);
         resolutionDrop.onValueChanged.AddListener(SetResolution);

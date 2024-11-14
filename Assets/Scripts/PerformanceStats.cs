@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using TMPro;
+using Unity.Profiling;
 using UnityEngine;
+using UnityEngine.Profiling;
 
 public class PerformanceStats : MonoBehaviour
 {
@@ -10,12 +13,22 @@ public class PerformanceStats : MonoBehaviour
     [SerializeField] private TextMeshProUGUI vertices_Text;     // Affichage vertices
     [SerializeField] private TextMeshProUGUI batches_Text;      // Affichage batches
 
+    ProfilerRecorder drawCallsCountRecorder;
+
     private float avgFrameRate;
 
     void Start()
     {
         InvokeRepeating("DisplayFrameRate", 1f, 1f);  // Appel toutes les secondes pour le framerate
         InvokeRepeating("CountAllStats", 1f, 5f);     // Appel toutes les 5 secondes pour les statistiques
+
+    }
+
+    private void Update()
+    {
+        var sb = new StringBuilder(500);
+        sb.AppendLine($"Batches: {drawCallsCountRecorder. LastValue}");
+        batches_Text.text = sb.ToString();
     }
 
     private void DisplayFrameRate()
@@ -44,10 +57,6 @@ public class PerformanceStats : MonoBehaviour
             {
                 totalTriangles += meshFilter.sharedMesh.triangles.Length / 3;
             }
-            else
-            {
-                Debug.LogWarning(meshFilter.name + " mesh is not readable.");
-            }
         }
 
         // Affichage du total de triangles dans le TextMeshPro
@@ -67,13 +76,19 @@ public class PerformanceStats : MonoBehaviour
             {
                 totalVertices += meshFilter.sharedMesh.vertexCount;
             }
-            else
-            {
-                Debug.LogWarning(meshFilter.name + " mesh is not readable.");
-            }
         }
 
         // Affichage du total de vertices dans le TextMeshPro
         vertices_Text.text = "Total vertices: " + totalVertices;
+    }
+
+    private void OnEnable()
+    {
+        drawCallsCountRecorder = ProfilerRecorder.StartNew(ProfilerCategory.Render, "Draw Calls Count");
+    }
+
+    private void OnDisable()
+    {
+        drawCallsCountRecorder.Dispose();
     }
 }
